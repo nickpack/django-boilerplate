@@ -1,0 +1,5 @@
+README.md
+.gitignore
+staticfiles
+project_name/docs
+project_name/*.sqlite3
