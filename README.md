@@ -7,8 +7,10 @@ What you get out of the box
 ---
 
 * Pipenv set up
-* Django 2 with storages, gunicorn and a sensible config tree
-* Docker configuration to make deployments simple
+* Django 2 with storages, psycopg2, gunicorn
+* Dockerfile for the main django app
+* A docker-compose config for development
+* Rational, environment specific configuration
 
 More coming...
 
