@@ -11,7 +11,7 @@ COPY Pipfile Pipfile.lock /opt/app/
 RUN pip install pipenv
 RUN pipenv install --system
 
-apk --purge del .build-deps
+RUN apk --purge del .build-deps
 
 COPY . /opt/app
 
